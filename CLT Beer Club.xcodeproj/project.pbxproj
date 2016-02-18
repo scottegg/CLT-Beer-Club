@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB9F91C71C47297300C1B904 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9F91C61C47297300C1B904 /* AppDelegate.swift */; };
+		DB9F91C91C47297300C1B904 /* MasterBreweryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9F91C81C47297300C1B904 /* MasterBreweryViewController.swift */; };
+		DB9F91CC1C47297300C1B904 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB9F91CA1C47297300C1B904 /* Main.storyboard */; };
+		DB9F91CE1C47297300C1B904 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB9F91CD1C47297300C1B904 /* Assets.xcassets */; };
+		DB9F91D11C47297300C1B904 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB9F91CF1C47297300C1B904 /* LaunchScreen.storyboard */; };
+		DB9F91D91C4732DC00C1B904 /* DetailedBreweryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9F91D81C4732DC00C1B904 /* DetailedBreweryViewController.swift */; };
+		DBB62C0B1C505A8700E113F1 /* Brewery.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB62C0A1C505A8700E113F1 /* Brewery.swift */; };
+		DBB62C0D1C505B2400E113F1 /* BreweryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB62C0C1C505B2400E113F1 /* BreweryList.swift */; };
+		DBBE844A1C5D1FA300BFD69A /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBBE84471C5D1FA300BFD69A /* Bolts.framework */; };
+		DBBE844B1C5D1FA300BFD69A /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBBE84481C5D1FA300BFD69A /* Parse.framework */; };
+		DBBE844C1C5D1FA300BFD69A /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBBE84491C5D1FA300BFD69A /* ParseUI.framework */; };
+		DBBE844E1C5D202D00BFD69A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBBE844D1C5D202D00BFD69A /* AudioToolbox.framework */; };
+		DBBE84501C5D203400BFD69A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBBE844F1C5D203400BFD69A /* CFNetwork.framework */; };
+		DBBE84521C5D203D00BFD69A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBBE84511C5D203D00BFD69A /* CoreGraphics.framework */; };
+		DBBE84541C5D204400BFD69A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBBE84531C5D204400BFD69A /* CoreLocation.framework */; };
+		DBBE84561C5D204A00BFD69A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBBE84551C5D204A00BFD69A /* QuartzCore.framework */; };
+		DBBE84581C5D205100BFD69A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBBE84571C5D205100BFD69A /* Security.framework */; };
+		DBBE845A1C5D205800BFD69A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBBE84591C5D205800BFD69A /* StoreKit.framework */; };
+		DBBE845C1C5D206500BFD69A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBBE845B1C5D206500BFD69A /* SystemConfiguration.framework */; };
+		DBBE845E1C5D207200BFD69A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DBBE845D1C5D207200BFD69A /* libz.tbd */; };
+		DBBE84601C5D207F00BFD69A /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DBBE845F1C5D207F00BFD69A /* libsqlite3.tbd */; };
+		DBBE84621C5D2BDF00BFD69A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBE84611C5D2BDF00BFD69A /* TableViewController.swift */; };
+		DBBE84641C5D2C3300BFD69A /* AddBeerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBE84631C5D2C3300BFD69A /* AddBeerViewController.swift */; };
+		DBBE84661C5D2C4C00BFD69A /* BeerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBE84651C5D2C4C00BFD69A /* BeerDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB9F91C31C47297300C1B904 /* CLT Beer Club.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CLT Beer Club.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB9F91C61C47297300C1B904 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB9F91C81C47297300C1B904 /* MasterBreweryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterBreweryViewController.swift; sourceTree = "<group>"; };
+		DB9F91CB1C47297300C1B904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB9F91CD1C47297300C1B904 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB9F91D01C47297300C1B904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB9F91D21C47297300C1B904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB9F91D81C4732DC00C1B904 /* DetailedBreweryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedBreweryViewController.swift; sourceTree = "<group>"; };
+		DBB62C0A1C505A8700E113F1 /* Brewery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Brewery.swift; sourceTree = "<group>"; };
+		DBB62C0C1C505B2400E113F1 /* BreweryList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreweryList.swift; sourceTree = "<group>"; };
+		DBBE84471C5D1FA300BFD69A /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		DBBE84481C5D1FA300BFD69A /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		DBBE84491C5D1FA300BFD69A /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		DBBE844D1C5D202D00BFD69A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		DBBE844F1C5D203400BFD69A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		DBBE84511C5D203D00BFD69A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DBBE84531C5D204400BFD69A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DBBE84551C5D204A00BFD69A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DBBE84571C5D205100BFD69A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		DBBE84591C5D205800BFD69A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		DBBE845B1C5D206500BFD69A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DBBE845D1C5D207200BFD69A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		DBBE845F1C5D207F00BFD69A /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		DBBE84611C5D2BDF00BFD69A /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		DBBE84631C5D2C3300BFD69A /* AddBeerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddBeerViewController.swift; sourceTree = "<group>"; };
+		DBBE84651C5D2C4C00BFD69A /* BeerDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeerDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB9F91C01C47297300C1B904 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBBE84601C5D207F00BFD69A /* libsqlite3.tbd in Frameworks */,
+				DBBE845E1C5D207200BFD69A /* libz.tbd in Frameworks */,
+				DBBE845C1C5D206500BFD69A /* SystemConfiguration.framework in Frameworks */,
+				DBBE845A1C5D205800BFD69A /* StoreKit.framework in Frameworks */,
+				DBBE84581C5D205100BFD69A /* Security.framework in Frameworks */,
+				DBBE84561C5D204A00BFD69A /* QuartzCore.framework in Frameworks */,
+				DBBE84541C5D204400BFD69A /* CoreLocation.framework in Frameworks */,
+				DBBE84521C5D203D00BFD69A /* CoreGraphics.framework in Frameworks */,
+				DBBE84501C5D203400BFD69A /* CFNetwork.framework in Frameworks */,
+				DBBE844E1C5D202D00BFD69A /* AudioToolbox.framework in Frameworks */,
+				DBBE844C1C5D1FA300BFD69A /* ParseUI.framework in Frameworks */,
+				DBBE844B1C5D1FA300BFD69A /* Parse.framework in Frameworks */,
+				DBBE844A1C5D1FA300BFD69A /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB9F91BA1C47297300C1B904 = {
+			isa = PBXGroup;
+			children = (
+				DBBE84461C5D1F8600BFD69A /* Frameworks */,
+				DB9F91C51C47297300C1B904 /* CLT Beer Club */,
+				DB9F91C41C47297300C1B904 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB9F91C41C47297300C1B904 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB9F91C31C47297300C1B904 /* CLT Beer Club.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB9F91C51C47297300C1B904 /* CLT Beer Club */ = {
+			isa = PBXGroup;
+			children = (
+				DB9F91C61C47297300C1B904 /* AppDelegate.swift */,
+				DB9F91C81C47297300C1B904 /* MasterBreweryViewController.swift */,
+				DB9F91D81C4732DC00C1B904 /* DetailedBreweryViewController.swift */,
+				DBBE84611C5D2BDF00BFD69A /* TableViewController.swift */,
+				DBBE84631C5D2C3300BFD69A /* AddBeerViewController.swift */,
+				DBBE84651C5D2C4C00BFD69A /* BeerDetailViewController.swift */,
+				DB9F91CA1C47297300C1B904 /* Main.storyboard */,
+				DB9F91CD1C47297300C1B904 /* Assets.xcassets */,
+				DB9F91CF1C47297300C1B904 /* LaunchScreen.storyboard */,
+				DB9F91D21C47297300C1B904 /* Info.plist */,
+				DBB62C0A1C505A8700E113F1 /* Brewery.swift */,
+				DBB62C0C1C505B2400E113F1 /* BreweryList.swift */,
+			);
+			path = "CLT Beer Club";
+			sourceTree = "<group>";
+		};
+		DBBE84461C5D1F8600BFD69A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBBE845F1C5D207F00BFD69A /* libsqlite3.tbd */,
+				DBBE845D1C5D207200BFD69A /* libz.tbd */,
+				DBBE845B1C5D206500BFD69A /* SystemConfiguration.framework */,
+				DBBE84591C5D205800BFD69A /* StoreKit.framework */,
+				DBBE84571C5D205100BFD69A /* Security.framework */,
+				DBBE84551C5D204A00BFD69A /* QuartzCore.framework */,
+				DBBE84531C5D204400BFD69A /* CoreLocation.framework */,
+				DBBE84511C5D203D00BFD69A /* CoreGraphics.framework */,
+				DBBE844F1C5D203400BFD69A /* CFNetwork.framework */,
+				DBBE844D1C5D202D00BFD69A /* AudioToolbox.framework */,
+				DBBE84471C5D1FA300BFD69A /* Bolts.framework */,
+				DBBE84481C5D1FA300BFD69A /* Parse.framework */,
+				DBBE84491C5D1FA300BFD69A /* ParseUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB9F91C21C47297300C1B904 /* CLT Beer Club */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB9F91D51C47297300C1B904 /* Build configuration list for PBXNativeTarget "CLT Beer Club" */;
+			buildPhases = (
+				DB9F91BF1C47297300C1B904 /* Sources */,
+				DB9F91C01C47297300C1B904 /* Frameworks */,
+				DB9F91C11C47297300C1B904 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CLT Beer Club";
+			productName = "CLT Beer Club";
+			productReference = DB9F91C31C47297300C1B904 /* CLT Beer Club.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB9F91BB1C47297300C1B904 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Scott Eggleston";
+				TargetAttributes = {
+					DB9F91C21C47297300C1B904 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 23F7F2KD2A;
+					};
+				};
+			};
+			buildConfigurationList = DB9F91BE1C47297300C1B904 /* Build configuration list for PBXProject "CLT Beer Club" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB9F91BA1C47297300C1B904;
+			productRefGroup = DB9F91C41C47297300C1B904 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB9F91C21C47297300C1B904 /* CLT Beer Club */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB9F91C11C47297300C1B904 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9F91D11C47297300C1B904 /* LaunchScreen.storyboard in Resources */,
+				DB9F91CE1C47297300C1B904 /* Assets.xcassets in Resources */,
+				DB9F91CC1C47297300C1B904 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB9F91BF1C47297300C1B904 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB62C0D1C505B2400E113F1 /* BreweryList.swift in Sources */,
+				DBBE84661C5D2C4C00BFD69A /* BeerDetailViewController.swift in Sources */,
+				DBBE84621C5D2BDF00BFD69A /* TableViewController.swift in Sources */,
+				DBB62C0B1C505A8700E113F1 /* Brewery.swift in Sources */,
+				DB9F91C91C47297300C1B904 /* MasterBreweryViewController.swift in Sources */,
+				DB9F91C71C47297300C1B904 /* AppDelegate.swift in Sources */,
+				DB9F91D91C4732DC00C1B904 /* DetailedBreweryViewController.swift in Sources */,
+				DBBE84641C5D2C3300BFD69A /* AddBeerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB9F91CA1C47297300C1B904 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB9F91CB1C47297300C1B904 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB9F91CF1C47297300C1B904 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB9F91D01C47297300C1B904 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB9F91D31C47297300C1B904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB9F91D41C47297300C1B904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB9F91D61C47297300C1B904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "CLT Beer Club/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scotteggleston.CLT-Beer-Club";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB9F91D71C47297300C1B904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "CLT Beer Club/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scotteggleston.CLT-Beer-Club";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB9F91BE1C47297300C1B904 /* Build configuration list for PBXProject "CLT Beer Club" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB9F91D31C47297300C1B904 /* Debug */,
+				DB9F91D41C47297300C1B904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB9F91D51C47297300C1B904 /* Build configuration list for PBXNativeTarget "CLT Beer Club" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB9F91D61C47297300C1B904 /* Debug */,
+				DB9F91D71C47297300C1B904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB9F91BB1C47297300C1B904 /* Project object */;
+}
